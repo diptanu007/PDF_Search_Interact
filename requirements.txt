@@ -1,6 +1,6 @@
 streamlit
 PyPDF2
-pinecone
+pinecone>=3.0
 openai
 tiktoken
 pandas
