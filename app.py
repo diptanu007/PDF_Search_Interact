@@ -16,7 +16,7 @@ from openai import OpenAI
 # Streamlit page config
 # ---------------------------
 st.set_page_config(page_title="PDF RAG App", layout="wide")
-st.title("RAG-based PDF Question Answering (Pinecone + OpenAI)")
+st.title("AskMyPDF")
 
 
 # ---------------------------
