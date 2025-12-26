@@ -1,6 +1,6 @@
 streamlit
 PyPDF2
-pinecone-client
+pinecone
 openai
 tiktoken
 pandas
