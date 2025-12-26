@@ -181,6 +181,7 @@ if uploaded_pdf and OPENAI_API_KEY and PINECONE_API_KEY:
         "as", "by", "an", "be", "this", "that", "it", "are", "or"
     ])
     filtered_words = [w for w in word_list if w not in stopwords]
+    filtered_words = [w for w in filtered_words if w isalpha()]
     top_keywords = Counter(filtered_words).most_common(15)
 
     # ---------------------------
